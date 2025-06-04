@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <main>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+      <div class="card mb-3" style="max-width: 42rem;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./images/drawers.jpg" class="img-fluid rounded-start main_img " alt="Image of a dresser">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body text_container ms-3 py-4">
+              <h5 class="card-title top_header">Shift the overall look and feel by adding these wonderful touches to
+                furniture in your home</h5>
+              <p class="card-text">Ever been in a room and felt like something was missing? Perhaps
+                it felt slightly bare and uninviting. I’ve got some simple tips
+                to help you make any room feel complete.</p>
+              <div class="share" id="share_box">
+                <h4 class="share_text mt-2 ps-3 pe-3 ms-3">S H A R E</h4>
+                <img src="./images/icon-facebook.svg" alt="Facebook icon" class="share_icon">
+                <img src="./images/icon-twitter.svg" alt="Twitter icon" class="share_icon">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest icon" class="share_icon">
+                <div class="triangle_down mt-5 me-5"></div>
+              </div>
+              <div class="bottom_row">
+                <img src="./images/avatar-michelle.jpg" alt="profile picture" class="profile_pic">
+                <div class="author_info">
+                  <h5 class="mb-1 mt-2 author_name">Michelle Appleton</h5>
+                  <h6 class="date">28 Jun 2020</h6>
+                </div>
+                <img src="images/icon-share.svg" alt="Share icon" class="share_icon ms-auto me-4" id="share_icon" onclick="show_share()">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./scripts.js"></script>
+
+</body>
+
+</html>
